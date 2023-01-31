@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["mocha"],
+    "outDir": "dist",
     "module": "commonjs",
-    "declaration": true,
-    "noImplicitAny": false,
-    "removeComments": true,
-    "noLib": false,
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "target": "es6",
-    "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./"
+    "moduleResolution": "node",
+    "sourceMap": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["*/node_modules/*"]
 }
